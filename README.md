@@ -1,4 +1,4 @@
-DJANGO PWA Version 2
+**DJANGO PWA Version 2**
 
 Difference from original repository is that it add Django 4 Support and Posibility to disable "offline" slug page / view. So, We can set up our own Offline page for our apps. 
 
