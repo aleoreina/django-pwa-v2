@@ -65,3 +65,7 @@
   - Fix PWA if app is not mounted in root of webserver
   ### Added
   - Allow use of view names in PWA_APP_SCOPE, PWA_START_URL, PWA_APP_FETCH_URL and PWA_APP_ROOT
+
+ ## 2.0
+
+ # Django 4 Support + Posibility to add Custom Offline pages 
