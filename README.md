@@ -2,6 +2,11 @@ DJANGO PWA Version 2
 
 Difference from original repository is that it add Django 4 Support and Posibility to disable "offline" slug page / view. So, We can set up our own Offline page for our apps. 
 
+To Install it , Just use :
+
+    pip install git+https://github.com/aleoreina/django-pwa-v2.git
+
+
 This Django app turns your project into a [progressive web app](https://developers.google.com/web/progressive-web-apps/). Navigating to your site on an Android phone will prompt you to add the app to your home screen.
 
   
@@ -95,11 +100,6 @@ PWA_APP_SCOPE = '/'
 PWA_APP_ORIENTATION = 'any'
 
 PWA_APP_START_URL = '/'
-
-# If you turn True, /offline/ view will dissapear
-# Then you can add your own /offline/ view in your django app.
-PWA_CUSTOM_OFFLINE_PAGE = False
-
 PWA_APP_STATUS_BAR_COLOR = 'default'
 
 PWA_APP_ICONS = [
@@ -141,6 +141,11 @@ PWA_APP_SPLASH_SCREEN = [
 PWA_APP_DIR = 'ltr'
 
 PWA_APP_LANG = 'en-US'
+
+# New Feature:
+# If you turn True, /offline/ view will dissapear
+# Then you can add your own /offline/ view in your django app.
+PWA_CUSTOM_OFFLINE_PAGE = False
 
   
 
@@ -401,12 +406,3 @@ License
 =====
 
 All files in this repository are distributed under the MIT license.
-
-
-
-Credits
-
-=====
-
-Original Repository of authors: https://github.com/silviolleite/django-pwa/
-For Django 4.0 Support + Offline Page taken down, so we create our own /offline/ : Angel Reina
