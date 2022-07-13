@@ -11,5 +11,5 @@ urlpatterns = [
 ]
 
 
-if PWA_CUSTOM_OFFLINE_PAGE == False:
-    urls_patterns += path('offline', offline, name='offline')
+if app_settings.PWA_CUSTOM_OFFLINE_PAGE == False:
+    urlpatterns += path('offline', offline, name='offline')
